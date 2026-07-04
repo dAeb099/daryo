@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+body {
+  background-color: #f0f0f0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  width: 136px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 0 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top__left,
+.top__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.temperature {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.temperature__img {
+  width: 20px;
+  height: 20px;
+}
+
+.bank__logo {
+  width: 50px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.jch_2026 {
+  width: 100px;
+  cursor: pointer;
+}
+
+.header {
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search,
+.header__cabinet {
+  background-color: lightgray;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px !important;
+}
+
+.main__content {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.new {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.new__info {
   display: flex;
   flex-direction: column;
+  gap: 20px;
+}
+
+.new img {
+  width: 500px;
+}
+
+.main__sidebar {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.sidebar__item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.date {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.date__img {
+  width: 20px;
 }
