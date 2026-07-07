@@ -1,0 +1,12 @@
+.main__sidebar {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.sidebar__item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}

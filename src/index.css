@@ -24,7 +24,6 @@ a {
   display: flex;
   flex-direction: column;
   width: 1080px;
-  gap: 20px;
 }
 
 .sidebar__container {

@@ -1,0 +1,19 @@
+.new {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.new__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.new img {
+  width: 500px;
+}

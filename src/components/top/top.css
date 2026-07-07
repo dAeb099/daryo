@@ -1,0 +1,20 @@
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 0 5px;
+}
+
+.top__left,
+.top__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.temperature {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

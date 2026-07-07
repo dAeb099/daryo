@@ -1,4 +1,4 @@
-const images = {
+const Images = {
   logo: require("./logo.png"),
   itlar: require("./itlar.jpg"),
   jch_2026: require("./jch-2026.png"),
@@ -11,6 +11,7 @@ const images = {
   app_store: require("./app-store.png"),
   google_play: require("./google-play.png"),
   calendar: require("./calendar.png"),
+  hantavirus: require("./hantavirus.jpg"),
 };
 
-export default images;
+export default Images;

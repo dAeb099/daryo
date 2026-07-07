@@ -1,0 +1,33 @@
+.header {
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search,
+.header__cabinet {
+  background-color: lightgray;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+}
